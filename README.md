@@ -1,14 +1,14 @@
 # 🌍 EXIM Trade Intelligence Dashboard
 
-An interactive analytics dashboard for analyzing global import-export trade data, identifying trade trends, and generating business insights through data visualization and forecasting.
+An interactive analytics project for analyzing global import-export trade data, identifying trade trends, understanding country and commodity-wise performance, and generating business insights through data analysis and visualization.
 
 ---
 
 ## 📌 Project Overview
 
-This project analyzes international trade data to identify import-export patterns, country-wise trade performance, commodity trends, and future trade forecasts using Power BI and Machine Learning.
+This project analyzes international trade data to identify import-export patterns, country-wise trade performance, commodity trends, and overall trade behavior.
 
-The dashboard enables users to explore trade statistics, compare countries and commodities, and support data-driven business decisions.
+The project combines Python-based data analysis with an interactive dashboard to help users explore trade statistics, compare countries and commodities, analyze import and export trends, and derive data-driven business insights.
 
 ---
 
@@ -16,23 +16,29 @@ The dashboard enables users to explore trade statistics, compare countries and c
 
 - Interactive Trade Dashboard
 - Country-wise Trade Analysis
-- Commodity-wise Analysis
-- Import & Export Trends
-- Trade Forecasting
+- Commodity-wise Trade Analysis
+- Import & Export Trend Analysis
+- Trade Performance Comparison
 - KPI Cards & Visualizations
 - Dynamic Filters
 - Business Insights
+- Trade Forecasting / Predictive Analysis
 
 ---
 
 ## 🛠 Tech Stack
 
+### Programming & Data Analysis
 - Python
-- Power BI
 - Pandas
 - NumPy
+
+### Data Visualization
 - Matplotlib
 - Plotly
+- Power BI
+
+### Machine Learning
 - Scikit-learn
 
 ---
@@ -44,51 +50,8 @@ EXIM_Analysis/
 │
 ├── CODE.zip
 ├── DATA/
+│   ├── trade_data_10k.csv
+│   └── trade_data_100k.csv
+│
 ├── exim dashboard.pdf
 └── README.md
-```
-
----
-
-# 📊 Dashboard
-
-You can view the complete Power BI dashboard here:
-
-📄 **[EXIM Dashboard (PDF)](./exim%20dashboard.pdf)**
-
----
-
-## 📈 Key Insights
-
-- Analyzed country-wise import and export performance.
-- Identified commodity-wise trade trends.
-- Built interactive dashboards for business analysis.
-- Applied machine learning techniques for trade forecasting.
-- Generated KPIs to support strategic decision-making.
-
----
-
-## ▶️ How to Use
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/Hiteshi25/EXIM_Analysis.git
-```
-
-2. Explore the dataset in the `DATA` folder.
-
-3. Open **exim dashboard.pdf** to view the dashboard.
-
----
-
-## 👩‍💻 Author
-
-**Hiteshi Arya**
-
-- GitHub: https://github.com/Hiteshi25
-- LinkedIn: https://linkedin.com/in/your-linkedin
-
----
-
-⭐ If you found this project useful, consider giving it a star.
